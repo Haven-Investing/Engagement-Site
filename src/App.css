@@ -6,19 +6,86 @@
     font-family: GT Walsheim Pro, Arial, Helvetica;
     background-color: #101010;
     color: white;
-    
+    scrollbar-width: none;
 }
 
 
 
+/* Navbar components */
+
 .Navbar {
     display: flex;
     justify-content: space-between; 
-       
+    z-index: 1;
 }
 
 .NavbarTitle {
     margin: 20px;
     font-size:25px;
     font-weight:bold;
+    z-index: inherit;
+}
+
+
+
+
+/* Content components */
+
+.ContentContainer {
+    display: flex;
+    justify-content: space-between; 
+    z-index: 0;
+}
+
+.ImageLeft {
+    width: 55%;
+    height: 55%;
+    max-height: 1000;
+    transform: rotate(25deg);
+    z-index: inherit;
+    margin-top: -90px;
+    margin-left: -10%;
+}
+
+.ImageRight {
+    width: 55%;
+    height: 55%;
+    max-height: 1000;
+    transform: rotate(-25deg);
+    z-index: inherit;
+    margin-top: -100px;
+    margin-right: -10%;
+
+    
+/*     transform: rotate(-25deg);
+    z-index: inherit;
+    margin-right: -20%; */
+}
+
+.ContentTitle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 1050px;
+    width: 60%;
+    z-index: 1;
+}
+
+.ContentText {
+    margin-top: -25%;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+
+
+/* Spacer */
+
+.Spacer {
+    z-index: 1;
+    position: relative;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
 }
