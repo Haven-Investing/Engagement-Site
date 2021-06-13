@@ -55,7 +55,7 @@
     z-index: inherit;
     margin-top: -100px;
     margin-right: -10%;
-
+    margin-bottom: 150px;
 }
 
 .ContentTitleMain {
@@ -86,10 +86,24 @@
     width: 60%;
     z-index: 1;
     margin-left: 5%;
+    
 }
 
+.ContentContainerRight {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 300;
+    width: 60%;
+    z-index: 1;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+
+
 .ContentTextTitle {
-    margin-top: -5%;
+    margin-top: -15%;
     font-weight: bold;
     font-size: 60px;
 }
